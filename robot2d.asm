@@ -172,7 +172,7 @@ calculaTheta2:
 	div.s $f12, $f6, $f10     # cos(T2)
 	jal acos
 	
-	neg.s $f12, $f12          # torna negativo para solução cotovelo para baixo  #Alteração DeepSeek
+	neg.s $f12, $f12          # torna negativo para solução cotovelo para baixo 
     	mov.s $f28, $f12
     	lw $ra, 0($sp)
     	addi $sp, $sp, 4
